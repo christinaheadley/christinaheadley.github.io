@@ -184,6 +184,8 @@ input, select, textarea {
 	h5 {
 		font-size: 0.8em;
 		line-height: 1.5em;
+		text-align: left;
+		
 	}
 
 	h6 {
