@@ -175,7 +175,7 @@ html {
 html {
   background-color: #313a3d;
   background-attachment: fixed, fixed;
-  background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+  background-image: url("images/overlay.png"), url("../../images/pexels-matt-hardy-3560168.jpg");
   background-position: top left, center center;
   background-repeat: repeat, none;
   background-size: auto, cover;
@@ -224,13 +224,13 @@ a {
   -ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   border-bottom: dotted 1px;
-  color: #8cd1a8;
+  color: #5082c0;
   text-decoration: none;
 }
 
 a:hover {
   border-bottom-color: transparent !important;
-  color: #8cd1a8 !important;
+  color: #5082c0 !important;
   text-decoration: none;
 }
 
@@ -2125,7 +2125,7 @@ input[type="password"]:focus,
 input[type="email"]:focus,
 select:focus,
 textarea:focus {
-  box-shadow: inset 0 0 0 2px #8cd1a8;
+  box-shadow: inset 0 0 0 2px #5082c0;
 }
 
 select {
@@ -2227,7 +2227,7 @@ input[type="radio"]:checked + label:before {
 
 input[type="checkbox"]:focus + label:before,
 input[type="radio"]:focus + label:before {
-  box-shadow: inset 0 0 0 2px #8cd1a8;
+  box-shadow: inset 0 0 0 2px #5082c0;
 }
 
 input[type="radio"] + label:before {
@@ -2761,7 +2761,7 @@ input[type="reset"].primary,
 input[type="button"].primary,
 button.primary,
 .button.primary {
-  background-color: #8cd1a8;
+  background-color: #5082c0;
   border: 0;
   box-shadow: none;
   color: #ffffff !important;
@@ -2772,7 +2772,7 @@ input[type="reset"].primary:hover,
 input[type="button"].primary:hover,
 button.primary:hover,
 .button.primary:hover {
-  background-color: #9ed8b6;
+  background-color: #5082c0;
 }
 
 input[type="submit"].primary:active,
@@ -2780,7 +2780,7 @@ input[type="reset"].primary:active,
 input[type="button"].primary:active,
 button.primary:active,
 .button.primary:active {
-  background-color: #7aca9a;
+  background-color: #5082c0;
 }
 
 input[type="submit"].primary.icon:before,
