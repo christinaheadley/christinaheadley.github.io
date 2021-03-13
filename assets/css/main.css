@@ -1022,13 +1022,12 @@ ul li {
 
 ul.cjh {
   list-style: none;
-  text-align: left;
-  padding-left: 20%;
 }
 
-ul.cjh {
+ul.cjh li {
   text-align: left;
-  padding-left: 20%;
+  padding-left: 12%;
+  padding-right: 12%;
 }
 
 ul.alt {
@@ -1694,7 +1693,7 @@ button:disabled,
   }
 
   #header:after {
-    height: 80vh;
+    height: 60vh;
   }
 
   #header header {
