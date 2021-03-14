@@ -1921,3 +1921,7 @@ img {
 .demo:hover {
   opacity: 1;
 }
+.responsive {
+  width: 100%;
+  height: auto;
+}
