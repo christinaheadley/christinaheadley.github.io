@@ -246,6 +246,8 @@ b {
 em,
 i {
   font-style: italic;
+  font-size: 24px;
+  color: white;
 }
 
 p {
@@ -288,6 +290,10 @@ h3 {
 
 h3.cjh {
   border-bottom: solid 1px #dddddd;
+}
+p.barb {
+  text-align: justify;
+  text-justify: inter-word;
 }
 h3.labor {
   text-align: center;
@@ -402,6 +408,13 @@ pre code {
 }
 
 .container.max {
+  width: 100%;
+}
+iframe {
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
   width: 100%;
 }
 
@@ -997,8 +1010,12 @@ header.major p {
   width: 100%;
 }
 .responsive {
-  width: 100%;
+  width: 50%;
   height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
 }
 
 /* List */
@@ -1920,8 +1937,4 @@ img {
 .active,
 .demo:hover {
   opacity: 1;
-}
-.responsive {
-  width: 100%;
-  height: auto;
 }
